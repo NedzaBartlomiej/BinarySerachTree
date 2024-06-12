@@ -40,3 +40,7 @@ Dzięki powyższym zasadom BST umożliwia efektywne wyszukiwanie, dodawanie i us
 3. **Post-order Traversal** (przechodzenie w tył):
    - Przechodzi przez lewe i prawe poddrzewo, a na końcu odwiedza węzeł. (Przydatne do usuwania drzewa, ze względu na zaczęcie odwiedzania od samego dołu, czyli pozwala na usuwanie węzłów bez zbędnych operacji ustawiania potomków po usunięciu węzła ze środka struktury).
 (`"Odwiedza węzeł - ingerencja w wartość węzła"`).
+
+### Metoda updateValue()
+
+Implementacje tej metody pomijam w tym opracowaniu, ze wzgledu na to że chciałbym się skupić tutaj na czystyej logice algorytmów, a metoda update nie wymaga żadnej skomplikowanej do zrozumienia implementacji, ponieważ polegałaby ona tylko i wyłacznie na usunięciu wartości update-owanej i dodaniu wartości zastępczej, co za tym idzie, te metody mamy już zaimplementowane a użycie ich po prostu w innej metodzie nie wnosi nam nic przydatnego do tego wpisu, zatem to zostaje pominięte lecz uświadomione tym, którzy mieliby jakiekolwiek wątpliwości :D 
