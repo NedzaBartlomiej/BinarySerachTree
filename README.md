@@ -34,9 +34,9 @@ Dzięki powyższym zasadom BST umożliwia efektywne wyszukiwanie, dodawanie i us
 
 ### Implementacje przechodzenia przez drzewo
 1. **In-order Traversal** (przechodzenie w kolejności):
-   - Przechodzi przez lewe poddrzewo, potem odwiedza węzeł, a następnie przechodzi przez prawe poddrzewo. Daje posortowaną kolejność wartości.
+   - Przechodzi przez lewe poddrzewo, potem odwiedza węzeł, a następnie przechodzi przez prawe poddrzewo. (Przydatne do zwracania posortowanych wartości, ze względu na odwiedzanie węzłów od najmniejszej wartości do największej. UWAGA można też zastosować odwrotne podejście, wtedy możemy sortować malejąco).
 2. **Pre-order Traversal** (przechodzenie w przód):
-   - Odwiedza węzeł, a następnie przechodzi przez lewe i prawe poddrzewo. Używane często do kopiowania drzewa.
+   - Odwiedza węzeł, a następnie przechodzi przez lewe i prawe poddrzewo. (Przydatne do kopiowania drzewa, ze względu na zaczęcie odwiedzania węzłów od samego początku, czyli pozwala na odwzrorowanie struktury drzewa).
 3. **Post-order Traversal** (przechodzenie w tył):
-   - Przechodzi przez lewe i prawe poddrzewo, a na końcu odwiedza węzeł. Używane do usuwania drzewa.
+   - Przechodzi przez lewe i prawe poddrzewo, a na końcu odwiedza węzeł. (Przydatne do usuwania drzewa, ze względu na zaczęcie odwiedzania od samego dołu, czyli pozwala na usuwanie węzłów bez zbędnych operacji ustawiania potomków po usunięciu węzła ze środka struktury).
 (`"Odwiedza węzeł - ingerencja w wartość węzła"`).
