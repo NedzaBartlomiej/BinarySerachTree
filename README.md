@@ -39,3 +39,4 @@ Dzięki powyższym zasadom BST umożliwia efektywne wyszukiwanie, dodawanie i us
    - Odwiedza węzeł, a następnie przechodzi przez lewe i prawe poddrzewo. Używane często do kopiowania drzewa.
 3. **Post-order Traversal** (przechodzenie w tył):
    - Przechodzi przez lewe i prawe poddrzewo, a na końcu odwiedza węzeł. Używane do usuwania drzewa.
+(`"Odwiedza węzeł - ingerencja w wartość węzła"`).
